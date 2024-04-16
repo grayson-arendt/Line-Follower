@@ -10,7 +10,7 @@ pip install RPi.GPIO
 # Setup and build workspace
 mkdir -p line_follower/src
 cd line_follower/src
-git clone <repository_name> 
+git clone https://github.com/grayson-arendt/Line-Follower.git
 colcon build
 ```
 
