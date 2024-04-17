@@ -21,7 +21,7 @@ source install/setup.bash
 ros2 launch robot_pkg robot_launch.py
 ```
 
-Once the launch file is called, the robot is now able to follow a black line on a white surface.
+Once the launch file is called, the robot will now follow a black line on a white surface.
 
 
 
