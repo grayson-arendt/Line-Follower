@@ -11,8 +11,8 @@ pip install RPi.GPIO
 mkdir -p line_follower/src
 cd line_follower/src
 git clone https://github.com/grayson-arendt/Line-Follower.git
-colcon build
 cd ..
+colcon build
 source install/setup.bash
 ```
 
