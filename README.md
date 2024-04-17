@@ -1,6 +1,6 @@
 # Line Follower Robot
 ### Description
-This repository contains code to run a small line follower robot from a Raspberry Pi 4 Model B on Ubuntu 22.04. The ROS 2 version used is Humble. For controlling the DC motors and reading data from the IR sensors, the Rasbperry Pi GPIO library is used.
+This repository contains code to run a small line follower robot from a Raspberry Pi 4 Model B on Ubuntu 22.04. The ROS 2 version used is Humble. For controlling the DC motors and reading data from the IR sensors, the Raspberry Pi GPIO library is used.
 
 ### Installation
 ```bash
@@ -12,6 +12,8 @@ mkdir -p line_follower/src
 cd line_follower/src
 git clone https://github.com/grayson-arendt/Line-Follower.git
 colcon build
+cd ..
+source install/setup.bash
 ```
 
 ### Running Robot
